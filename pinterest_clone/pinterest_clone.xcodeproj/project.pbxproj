@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78F16AE52EB72C40004EF026 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 78F16AE42EB72C40004EF026 /* GRDB */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		788282852EB3271E00EC0027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7882826E2EB3271C00EC0027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788282752EB3271C00EC0027;
+			remoteInfo = pinterest_clone;
+		};
+		7882828F2EB3271E00EC0027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7882826E2EB3271C00EC0027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 788282752EB3271C00EC0027;
+			remoteInfo = pinterest_clone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		788282762EB3271C00EC0027 /* pinterest_clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinterest_clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		788282842EB3271E00EC0027 /* pinterest_cloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinterest_cloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7882828E2EB3271E00EC0027 /* pinterest_cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinterest_cloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		788282782EB3271C00EC0027 /* pinterest_clone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = pinterest_clone;
+			sourceTree = "<group>";
+		};
+		788282872EB3271E00EC0027 /* pinterest_cloneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = pinterest_cloneTests;
+			sourceTree = "<group>";
+		};
+		788282912EB3271E00EC0027 /* pinterest_cloneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = pinterest_cloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		788282732EB3271C00EC0027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F16AE52EB72C40004EF026 /* GRDB in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788282812EB3271E00EC0027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7882828B2EB3271E00EC0027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7882826D2EB3271C00EC0027 = {
+			isa = PBXGroup;
+			children = (
+				788282782EB3271C00EC0027 /* pinterest_clone */,
+				788282872EB3271E00EC0027 /* pinterest_cloneTests */,
+				788282912EB3271E00EC0027 /* pinterest_cloneUITests */,
+				78F16A952EB72ACD004EF026 /* Frameworks */,
+				788282772EB3271C00EC0027 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		788282772EB3271C00EC0027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				788282762EB3271C00EC0027 /* pinterest_clone.app */,
+				788282842EB3271E00EC0027 /* pinterest_cloneTests.xctest */,
+				7882828E2EB3271E00EC0027 /* pinterest_cloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78F16A952EB72ACD004EF026 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		788282752EB3271C00EC0027 /* pinterest_clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 788282982EB3271E00EC0027 /* Build configuration list for PBXNativeTarget "pinterest_clone" */;
+			buildPhases = (
+				788282722EB3271C00EC0027 /* Sources */,
+				788282732EB3271C00EC0027 /* Frameworks */,
+				788282742EB3271C00EC0027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				788282782EB3271C00EC0027 /* pinterest_clone */,
+			);
+			name = pinterest_clone;
+			packageProductDependencies = (
+				78F16AE42EB72C40004EF026 /* GRDB */,
+			);
+			productName = pinterest_clone;
+			productReference = 788282762EB3271C00EC0027 /* pinterest_clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		788282832EB3271E00EC0027 /* pinterest_cloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7882829B2EB3271E00EC0027 /* Build configuration list for PBXNativeTarget "pinterest_cloneTests" */;
+			buildPhases = (
+				788282802EB3271E00EC0027 /* Sources */,
+				788282812EB3271E00EC0027 /* Frameworks */,
+				788282822EB3271E00EC0027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				788282862EB3271E00EC0027 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				788282872EB3271E00EC0027 /* pinterest_cloneTests */,
+			);
+			name = pinterest_cloneTests;
+			packageProductDependencies = (
+			);
+			productName = pinterest_cloneTests;
+			productReference = 788282842EB3271E00EC0027 /* pinterest_cloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7882828D2EB3271E00EC0027 /* pinterest_cloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7882829E2EB3271E00EC0027 /* Build configuration list for PBXNativeTarget "pinterest_cloneUITests" */;
+			buildPhases = (
+				7882828A2EB3271E00EC0027 /* Sources */,
+				7882828B2EB3271E00EC0027 /* Frameworks */,
+				7882828C2EB3271E00EC0027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				788282902EB3271E00EC0027 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				788282912EB3271E00EC0027 /* pinterest_cloneUITests */,
+			);
+			name = pinterest_cloneUITests;
+			packageProductDependencies = (
+			);
+			productName = pinterest_cloneUITests;
+			productReference = 7882828E2EB3271E00EC0027 /* pinterest_cloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7882826E2EB3271C00EC0027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					788282752EB3271C00EC0027 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					788282832EB3271E00EC0027 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 788282752EB3271C00EC0027;
+					};
+					7882828D2EB3271E00EC0027 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 788282752EB3271C00EC0027;
+					};
+				};
+			};
+			buildConfigurationList = 788282712EB3271C00EC0027 /* Build configuration list for PBXProject "pinterest_clone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7882826D2EB3271C00EC0027;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				78F16A942EB729F7004EF026 /* XCRemoteSwiftPackageReference "GRDB.swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 788282772EB3271C00EC0027 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				788282752EB3271C00EC0027 /* pinterest_clone */,
+				788282832EB3271E00EC0027 /* pinterest_cloneTests */,
+				7882828D2EB3271E00EC0027 /* pinterest_cloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		788282742EB3271C00EC0027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788282822EB3271E00EC0027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7882828C2EB3271E00EC0027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		788282722EB3271C00EC0027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		788282802EB3271E00EC0027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7882828A2EB3271E00EC0027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		788282862EB3271E00EC0027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 788282752EB3271C00EC0027 /* pinterest_clone */;
+			targetProxy = 788282852EB3271E00EC0027 /* PBXContainerItemProxy */;
+		};
+		788282902EB3271E00EC0027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 788282752EB3271C00EC0027 /* pinterest_clone */;
+			targetProxy = 7882828F2EB3271E00EC0027 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		788282962EB3271E00EC0027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = AR5LHXF93Q;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		788282972EB3271E00EC0027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = AR5LHXF93Q;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		788282992EB3271E00EC0027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = pinterest_clone/pinterest_clone.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AR5LHXF93Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yantarantulaconsulting.pinterest-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7882829A2EB3271E00EC0027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = pinterest_clone/pinterest_clone.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AR5LHXF93Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yantarantulaconsulting.pinterest-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7882829C2EB3271E00EC0027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AR5LHXF93Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yantarantulaconsulting.pinterest-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pinterest_clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pinterest_clone";
+			};
+			name = Debug;
+		};
+		7882829D2EB3271E00EC0027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AR5LHXF93Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yantarantulaconsulting.pinterest-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pinterest_clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pinterest_clone";
+			};
+			name = Release;
+		};
+		7882829F2EB3271E00EC0027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AR5LHXF93Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yantarantulaconsulting.pinterest-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = pinterest_clone;
+			};
+			name = Debug;
+		};
+		788282A02EB3271E00EC0027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AR5LHXF93Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yantarantulaconsulting.pinterest-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = pinterest_clone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		788282712EB3271C00EC0027 /* Build configuration list for PBXProject "pinterest_clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788282962EB3271E00EC0027 /* Debug */,
+				788282972EB3271E00EC0027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		788282982EB3271E00EC0027 /* Build configuration list for PBXNativeTarget "pinterest_clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				788282992EB3271E00EC0027 /* Debug */,
+				7882829A2EB3271E00EC0027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7882829B2EB3271E00EC0027 /* Build configuration list for PBXNativeTarget "pinterest_cloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7882829C2EB3271E00EC0027 /* Debug */,
+				7882829D2EB3271E00EC0027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7882829E2EB3271E00EC0027 /* Build configuration list for PBXNativeTarget "pinterest_cloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7882829F2EB3271E00EC0027 /* Debug */,
+				788282A02EB3271E00EC0027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		78F16A942EB729F7004EF026 /* XCRemoteSwiftPackageReference "GRDB.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 8.0.0;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78F16AE42EB72C40004EF026 /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78F16A942EB729F7004EF026 /* XCRemoteSwiftPackageReference "GRDB.swift" */;
+			productName = GRDB;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7882826E2EB3271C00EC0027 /* Project object */;
+}
